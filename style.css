@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+#gameArea {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.part {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.part.good {
+    background: #c8f7c5;
+}
+.part.bad {
+    background: #f7c5c5;
+}
